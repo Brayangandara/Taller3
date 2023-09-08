@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Layout con tablas 1</title>
+</head>
+<body>
+    <h1>Ejemplo Layout con tablas 1</h1>
+    <table border="2">
+        <style>
+            .colorDivUno{
+                color: aliceblue;
+                background-color: #003333;
+                height: 80px;
+            }
+            .colorDivDos{
+                color: white;
+                text-align: center ;
+                background-color: #ff8000;
+                height: 50px;
+            }
+            .colorDivTres{
+                color: aliceblue;
+                background-color:#000000;
+                height: 50px;
+            }
+            td.colorDivDos {
+                 border: none; 
+            }
+        </style>
+        <tr class="colorDivUno">
+            <th colspan="5">Welcome to EDUCBA</th>
+        </tr>
+        <tr>
+            <td style="text-align: center;" bgcolor="#e5e5e5"><u>Home</u></td>
+            <td rowspan="5"><strong>WHO IS EDUCBA?</strong> <br><br> Learn Graphic designing, Animation, Game Development, Video Editnh & more with Online Certifation Courses <br><br><br><br><br><br><br><br><br></td>
+            <td style="text-align: center;" bgcolor="#ff8000"class="colorDivDos"><strong>Courses</strong></td><br><br>
+        </tr>
+            <td style="text-align: center;" bgcolor="#e5e5e5"><u>About</u></td>
+            <td class="colorDivDos">Data Scince</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;" bgcolor="#e5e5e5"><u>Career</u></td>
+            <td class="colorDivDos"> Marketing</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;" bgcolor="#e5e5e5"><u>Contact us</u></td>
+            <td class="colorDivDos">Excel</td>
+        </tr>
+        <tr>
+            <td><br></td>
+            <td class="colorDivDos">Desing</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; color: white;" bgcolor="black" colspan="3"> © 2019 -EDUCBA. ALL RIGHTS RESERVED</td>
+        </tr>
+
+    </table>
+
+
+</body>
+</html>
